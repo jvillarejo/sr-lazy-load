@@ -13,7 +13,7 @@ angular.element.prototype.inViewport = function() {
 };
 
 angular.module('sinrutina.lazyload', []);
-angular.module('sinrutina.lazyload').directive("srLazyLoad", function ($window, $timeout) {
+angular.module('sinrutina.lazyload').directive("srLazyLoad", function ($window) {
   return {
     restrict: 'A',
     link: function(scope, element, attrs) {
