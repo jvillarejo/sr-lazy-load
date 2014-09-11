@@ -1,0 +1,24 @@
+{
+  "name": "srLazyLoad",
+  "version": "0.0.1",
+  "authors": [
+    "jvillarejo <juan@sinrutina.com>"
+  ],
+  "description": "An angular directive for lazy loading images",
+  "main": "srLazyLoad.js",
+  "keywords": [
+    "angular",
+    "directive",
+    "lazy",
+    "loading",
+    "images"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
