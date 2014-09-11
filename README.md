@@ -5,7 +5,7 @@ It's a simple idea, an angular directive that let's you lazy load images.
 
 **Requirements:** AngularJS 1.2+
 
-**File Size:** 0.7Kb minified
+**File Size:** 1.1Kb minified
 
 ## Install: 
 
@@ -23,16 +23,14 @@ $ bower install srLazyLoad
   angular.module('myApp', ['sinrutina.lazyload'])
   ```
 
-2. As it is now, the directive adds a spinner icon before the img tag, which depends on [Font Awesome Spinner](http://fortawesome.github.io/Font-Awesome/examples/)
-
-3. Add the directive to your image like this
+2. Add the directive to your image like this
   ```html
-  <img sr-lazy-load="url" >
+  <img sr-lazy-load="url" sr-spinner-class="spinner fa fa-spinner fa-spin">
   ```
 
   Where url is your scope variable that has the referene to the src, internally it will get the value from the scope. 
 
-4. You can add css to better display the spinner
+3. The directive also adds an icon tag before the img tag in order to display a loading spinner, you can configure it's classes with sr-spinner-class
 
 ## Credits:
 Inspiration taken from [jquery.lazyload](https://github.com/tuupola/jquery_lazyload)
