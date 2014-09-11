@@ -1,5 +1,5 @@
 'use strict';
-angular.module('srLazyLoad').directive("srLazyLoad", function ($window, $timeout) {
+angular.module('sinrutina.lazyLoad').directive("srLazyLoad", function ($window, $timeout) {
   return {
     restrict: 'A',
     link: function(scope, element, attrs) {
