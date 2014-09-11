@@ -1,0 +1,26 @@
+{
+  "name": "angular-loading-bar",
+  "version": "0.0.2",
+  "description": "An angular directive for lazy loading images",
+  "main": "srLazyLoad.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jvillarejo/srLazyLoad.git"
+  },
+  "keywords": [
+    "angular",
+    "directive",
+    "lazy",
+    "loading",
+    "images"
+  ],
+  "license": "MIT",
+  "author": "Juan Villarejo",
+  "bugs": {
+    "url": "https://github.com/jvillarejo/srLazyLoad/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.4"
+  }
+}
