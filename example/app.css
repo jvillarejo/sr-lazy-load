@@ -11,6 +11,8 @@
 
   top: 130px;
   left: 150px;
+
+  font-size: 20px;
 }
 .img-container img {
   opacity: 0;
