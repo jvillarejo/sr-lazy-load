@@ -1,0 +1,26 @@
+<html>
+  <head>
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- angular -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+
+    <!-- srLazyLoad -->
+    <script type="text/javascript" src="srLazyLoad.js"></script>
+
+    <!-- Example -->
+    <script type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="app.css">
+  </head>
+  <body ng-app="srLazyLoadExample">
+    <h1>srLazyLoad Example</h1>
+    <p>Scroll down to load images</p>
+
+    <div class="container" ng-controller="ExampleCtrl">
+      <div class="img-container" ng-repeat="image in images">
+        <img sr-lazy-load="image.url">
+      </div>
+    </div>
+  </body>
+</html>

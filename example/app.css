@@ -1,0 +1,23 @@
+
+.img-container {
+  margin: 15px;
+  width: 320px;
+  height: 240px;
+  background-color: #888888;
+}
+
+.img-container i {
+  position: relative;
+
+  top: 130px;
+  left: 150px;
+}
+.img-container img {
+  opacity: 0;
+
+  transition: 0.7s;
+  -o-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -webkit-transition: 0.7s;
+}
