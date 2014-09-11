@@ -17,9 +17,12 @@ angular.module('sinrutina.lazyload').directive("srLazyLoad", function ($window, 
   return {
     restrict: 'A',
     link: function(scope, element, attrs) {
+      var spinner = angular.element('<i class="' + attrs.srSpinnerClass + '"></i>');
+      
+      element.parent().prepend(spinner);
+
       $timeout(function() { 
         var events = 'DOMContentLoaded load resize scroll';
-        var spinner = angular.element('<i class="' + attrs.srSpinnerClass + '"></i>');
         var src = scope.$apply(attrs.srLazyLoad);
 
         var loaded = function() {
@@ -31,7 +34,6 @@ angular.module('sinrutina.lazyload').directive("srLazyLoad", function ($window, 
           
             angular.element($window).unbind(events,loadWhenInView);
 
-            element.parent().prepend(spinner);
             element.attr('src', src);
             
             element.bind('load',function() {

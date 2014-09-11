@@ -1,20 +1,27 @@
+.item {
+  margin: 15px;
+}
 
 .img-container {
-  margin: 15px;
+  position: relative;
   width: 320px;
   height: 240px;
-  background-color: #888888;
+  background-color: #777777;
 }
 
 .img-container i {
-  position: relative;
-
-  top: 130px;
-  left: 150px;
-
-  font-size: 20px;
+  position: absolute;
+  top: 100px;
+  left: 145px;
+  font-size: 30px;
 }
+
 .img-container img {
+  overflow: hidden;
+  
+  width: 100%;
+  max-width: 320px;
+  max-height: 240px;
   opacity: 0;
 
   transition: 0.7s;
