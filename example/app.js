@@ -3,7 +3,7 @@ angular.module('srLazyLoadExample', ['sinrutina.lazyload']);
 
 
 angular.module('srLazyLoadExample').controller('ExampleCtrl',function($scope) {
-  var imageCount = 20;
+  var imageCount = 40;
   var images = [];
 
   var randomImage = function(i) { 

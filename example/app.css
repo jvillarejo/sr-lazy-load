@@ -1,5 +1,6 @@
 .item {
   margin: 15px;
+  display: inline-block;
 }
 
 .img-container {
