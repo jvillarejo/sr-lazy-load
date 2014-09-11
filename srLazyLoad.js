@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('sinrutina.lazyload', ["$window", "$timeout"]);
+angular.module('sinrutina.lazyload', []);
 
 angular.module('sinrutina.lazyload').directive("srLazyLoad", function ($window, $timeout) {
   return {
