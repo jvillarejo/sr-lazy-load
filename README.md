@@ -1,4 +1,4 @@
-srLazyLoad
+sr-lazy-load
 ==========
 
 It's a simple idea, an angular directive that let's you lazy load images. 
@@ -12,7 +12,7 @@ It's a simple idea, an angular directive that let's you lazy load images.
 You can install it via bower
 
 ```
-$ bower install srLazyLoad
+$ bower install sr-lazy-load
 ```
 
 ## Usage: 
